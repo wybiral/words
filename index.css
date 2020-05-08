@@ -1,0 +1,25 @@
+body {
+    color: #fff;
+    font-size: 20px;
+    font-family: "comic sans ms";
+    background: url("space.gif");
+    text-align: center;
+}
+
+#phrase {
+    font-size: 300%;
+    color: aqua;
+}
+
+#category {
+    color: lime;
+    margin-bottom: 20px;
+}
+
+#random {
+    cursor: pointer;
+}
+
+#categories {
+    margin-top: 20px;
+}
