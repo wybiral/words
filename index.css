@@ -1,19 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+
 body {
     color: #fff;
-    font-size: 20px;
+    font-size: 20pt;
     font-family: "comic sans ms";
     background: url("space.gif");
     text-align: center;
 }
 
+button {
+    font-size: 100%;
+    padding: 10px 20px;
+}
+
 #phrase {
-    font-size: 300%;
+    font-size: 200%;
     color: aqua;
 }
 
 #category {
     color: lime;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #random {
@@ -21,5 +37,5 @@ body {
 }
 
 #categories {
-    margin-top: 20px;
+    margin-top: 30px;
 }
